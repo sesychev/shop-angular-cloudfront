@@ -11,7 +11,7 @@
 #
 # Happy Coding!
 
-service: my-first-angular-app
+service: my-third-angular-app
 
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
@@ -24,6 +24,7 @@ frameworkVersion: "3"
 provider:
   name: aws
   runtime: nodejs12.x
+  region: eu-west-1
 
 plugins:
   - serverless-finch
@@ -31,7 +32,7 @@ plugins:
 
 custom:
   client:
-    bucketName: my-second-angular-app
+    bucketName: my-third-angular-app
     distributionFolder: ./dist/app
   ## Serverless-single-page-app-plugin configuration:
   s3LocalPath: ${self:custom.client.distributionFolder}/
