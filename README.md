@@ -28,10 +28,4 @@ Follow the steps:
 
 - git clone
 - npm i
-- ng serve
-
-**S3-website:**[ my-first-angular-app](http://my-first-angular-app.s3-website-eu-west-1.amazonaws.com)  
-**CloudFront:**[ my-first-angular-app](https://dk07zplnsmu4k.cloudfront.net)
-
-**S3-website:**[ my-second-angular-app](http://my-second-angular-app.s3-website-us-east-1.amazonaws.com)  
-**CloudFront:**[ my-second-angular-app](https://d15nrdtc861hx0.cloudfront.net)
+- ng serve 
